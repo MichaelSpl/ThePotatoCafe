@@ -26,6 +26,12 @@ body {
     color: #F6ECBB;
 }
 
+@media only screen and (max-width: 570px) {
+    .headingContainer{
+        display: none;
+    }
+}
+
 h4 {
     font-size: 20px;
 }
@@ -49,13 +55,13 @@ h4 {
 }
 
 .logoTop {
-    position: inherit;
+    position: fixed;
     width: 250px;
     height: 150px;
-    z-index: inherit;
-    left: 0px;
+    z-index: 2;
     margin-top: -40px;
-    border: 3px solid rgb(0, 0, 0);
+    left: 0px;
+    top: 0px;
 }
 
 .logoTopImage {
