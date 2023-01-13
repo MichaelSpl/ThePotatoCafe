@@ -19,27 +19,26 @@ body {
 .headingContainer {
     position: fixed;
     display: flex;
-    flex-direction: row;
+    width: 25%;
+    height: 25%;
+    right: 0px;
     z-index: 2;
-    right: 170px;
-    gap: 40px;
     color: #F6ECBB;
+    border: 3px solid black;
 }
 
-@media only screen and (max-width: 570px) {
+/*@media only screen and (max-width: 570px) {
     .headingContainer{
         display: none;
     }
-}
+}*/
 
 h4 {
     font-size: 20px;
 }
 
 .orderOnlineText {
-    position: fixed;
-    z-index: 2;
-    right: 19px;
+
     color: #633720;
 }
 
