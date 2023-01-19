@@ -8,38 +8,18 @@ body {
     font-family: "Dancing Script";
 }
 
-.webHead {
+.buttonContainer {
+    position: fixed;
+    z-index: 2;
+    right: 0px;
+}
+
+.pageHeader {
     position: fixed;
     background-color: #633720;
     width: 100%;
     height: 75px;
     z-index: 1;
-}
-
-.headingContainer {
-    position: fixed;
-    display: flex;
-    width: 25%;
-    height: 25%;
-    right: 0px;
-    z-index: 2;
-    color: #F6ECBB;
-    border: 3px solid black;
-}
-
-/*@media only screen and (max-width: 570px) {
-    .headingContainer{
-        display: none;
-    }
-}*/
-
-h4 {
-    font-size: 20px;
-}
-
-.orderOnlineText {
-
-    color: #633720;
 }
 
 .orderOnlineButton {
@@ -54,6 +34,10 @@ h4 {
 }
 
 .logoTop {
+    
+}
+
+.logoTopImage {
     position: fixed;
     width: 250px;
     height: 150px;
@@ -61,11 +45,6 @@ h4 {
     margin-top: -40px;
     left: 0px;
     top: 0px;
-}
-
-.logoTopImage {
-    width: 100%;
-    height: 100%;
 }
 
 .logoHome {
