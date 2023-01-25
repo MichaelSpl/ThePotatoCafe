@@ -5,7 +5,15 @@ html {
 body {
     background: #F6ECBB;
     margin: 0%;
+}
+
+body,button {
     font-family: "Dancing Script";
+}
+
+button {
+    font-size: 20px;
+    border-radius: 5px;
 }
 
 .buttonContainer {
@@ -31,10 +39,6 @@ body {
     top: 20px;
     border-radius: 25px;
     background: #F6ECBB;
-}
-
-.logoTop {
-    
 }
 
 .logoTopImage {
@@ -81,218 +85,3 @@ img.logoOne {
     font-size: 20px;
     width: 75%;
 }
-
-
-
-/* // Home Screen
-
-position: relative;
-width: 1440px;
-height: 2630px;
-
-background: #FFFFFF;
-
-
-// Screen Top Border
-
-position: absolute;
-width: 1440px;
-height: 93px;
-left: 0px;
-top: 0px;
-
-
-
-// Title Card Background
-
-position: absolute;
-width: 1440px;
-height: 134px;
-left: 0px;
-top: 0px;
-
-background: #633720;
-
-
-// The Potato Cafe
-
-position: absolute;
-width: 548px;
-height: 55px;
-left: 34px;
-top: 5px;
-
-font-family: 'Dancing Script';
-font-style: normal;
-font-weight: 400;
-font-size: 64px;
-line-height: 77px;
-
-color: #F6ECBB;
-
-
-
-// Menu
-
-position: absolute;
-width: 86px;
-height: 42px;
-left: 990px;
-top: 27px;
-
-font-family: 'Dancing Script';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 38px;
-
-color: #F6ECBB;
-
-
-
-// Press
-
-position: absolute;
-width: 84px;
-height: 39px;
-left: 1106px;
-top: 27px;
-
-font-family: 'Dancing Script';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 38px;
-// identical to box height
-
-color: #F6ECBB;
-
-
-
-// Order Online Button
-
-position: absolute;
-width: 194px;
-height: 47px;
-left: 1220px;
-top: 23px;
-
-
-
-// Order Online Button
-
-position: absolute;
-width: 194px;
-height: 47px;
-left: 1220px;
-top: 23px;
-
-background: #F6ECBB;
-border-radius: 90px;
-
-
-// Order Online
-
-position: absolute;
-width: 177px;
-height: 47px;
-left: 1229px;
-top: 23px;
-
-font-family: 'Dancing Script';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 38px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #633720;
-
-
-
-// Potato In Logo
-
-position: absolute;
-width: 28px;
-height: 36.02px;
-left: 165.86px;
-top: 32px;
-
-background: url(Potato.png);
-transform: rotate(29.72deg);
-
-
-// Introduction
-
-position: absolute;
-width: 1440px;
-height: 1562px;
-left: 0px;
-top: 1068px;
-
-
-
-// Introduction Background
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-background: #F6ECBB;
-
-
-// Potatoes Our heart and soul
-
-position: absolute;
-height: 203px;
-left: 111px;
-right: 111px;
-top: 74px;
-
-font-family: 'Dancing Script';
-font-style: normal;
-font-weight: 400;
-font-size: 96px;
-line-height: 115px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #633720;
-
-
-
-// Here at the potato cafe, we use the mighty potato in all of our recipes. Honoring it as the most versatile and majestic vegetable out of all of them. We take great care in our food to make sure you can enjoy the potato in all of its glory.
-
-position: absolute;
-width: 1233px;
-height: 376px;
-left: 96px;
-top: 277px;
-
-font-family: 'Dancing Script';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 48px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #633720;
-
-
-
-// Potatoes Photo
-
-position: absolute;
-width: 1440px;
-height: 975px;
-left: 0px;
-top: 93px;
-
-background: url(Potato Background Edited.jpg); */
