@@ -13,13 +13,27 @@ body,button {
 
 button {
     font-size: 20px;
+    border: none;
+}
+
+button.transparent {
+    background-color: transparent;
+    color: #F6ECBB;
+}
+
+button.colored {
+    background-color: #F6ECBB;
+    border-color: #F6ECBB;
+    color: #633720;
     border-radius: 5px;
 }
 
 .buttonContainer {
     position: fixed;
+    display: flex;
     z-index: 2;
     right: 0px;
+    gap: 30px;
 }
 
 .pageHeader {
