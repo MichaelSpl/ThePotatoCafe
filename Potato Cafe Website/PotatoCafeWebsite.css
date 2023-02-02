@@ -44,6 +44,19 @@ button.colored {
     z-index: 1;
 }
 
+@media screen and (max-width: 600px){
+    .buttonContainer {
+        flex-direction: column;
+        gap: 0px;
+    }
+    .pageHeader{
+        height: 90px;
+    }
+    .logoTopImage {
+        top: 10px;
+    }
+}
+
 .orderOnlineButton {
     position: fixed;
     width: 120px;
@@ -62,7 +75,8 @@ button.colored {
     z-index: 2;
     margin-top: -40px;
     left: 0px;
-    top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .logoHome {
