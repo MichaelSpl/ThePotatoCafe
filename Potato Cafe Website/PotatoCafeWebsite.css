@@ -34,6 +34,8 @@ button.colored {
     z-index: 2;
     right: 0px;
     gap: 30px;
+    top: 25px;
+    right: 30px;
 }
 
 .pageHeader {
@@ -48,6 +50,7 @@ button.colored {
     .buttonContainer {
         flex-direction: column;
         gap: 0px;
+        top: 0px;
     }
     .pageHeader{
         height: 90px;
