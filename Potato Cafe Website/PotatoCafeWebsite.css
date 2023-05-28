@@ -4,7 +4,8 @@ html {
 
 body {
     background: #F6ECBB;
-    margin: 0%;
+    margin: 0;
+    padding: 0;
 }
 
 body,button {
@@ -115,8 +116,9 @@ img.logoOne {
     width: 75%;
 }
 
-.menu {
+.menuTitle {
     position: relative;
     text-align: center;
-    top: 100px;
+    margin-top: 0;
+    top: 150px;
 }
