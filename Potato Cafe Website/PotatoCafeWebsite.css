@@ -122,3 +122,11 @@ img.logoOne {
     margin-top: 0;
     top: 150px;
 }
+
+.items {
+    position: relative;
+    top: 170px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 200px);
+}
