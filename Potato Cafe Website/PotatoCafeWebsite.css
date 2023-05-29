@@ -121,12 +121,27 @@ img.logoOne {
     text-align: center;
     margin-top: 0;
     top: 150px;
+    font-size: 60px;
+}
+
+.mealTitle, .drinkTitle {
+    position: relative;
+    text-align: center;
+    margin-top: 0;
+}
+
+.mealTitle {
+    top: 180px;
 }
 
 .items {
     position: relative;
-    top: 170px;
+    top: 190px;
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(3, 200px);
+}
+
+.drinkTitle {
+    top: 260px;
 }
