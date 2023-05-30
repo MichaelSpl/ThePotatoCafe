@@ -61,6 +61,12 @@ button.colored {
     }
 }
 
+@media screen and (max-width: 630px){
+    html {
+        overflow-x: visible;
+    }
+}
+
 .orderOnlineButton {
     position: fixed;
     width: 120px;
@@ -134,14 +140,21 @@ img.logoOne {
     top: 180px;
 }
 
-.items {
+.items, .drinks {
     position: relative;
-    top: 190px;
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(3, 200px);
 }
 
+.items {
+    top: 190px;
+}
+
 .drinkTitle {
     top: 260px;
+}
+
+.drinks {
+    top: 270px;
 }
