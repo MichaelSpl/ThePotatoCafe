@@ -1,0 +1,42 @@
+{
+  "food": [
+    {
+      "name": "Shepherd's Pie",
+      "price": 15.95
+    },
+    {
+      "name": "Latkes",
+      "price": [8.95, 15.95]
+    },
+    {
+      "name": "Loaded Baked Potato Casserole",
+      "price": 18.25
+    },
+    {
+      "name": "Four Cheese Scalloped Potatoes",
+      "price": 13.5
+    },
+    {
+      "name": "Mashed Potatoes",
+      "price": 12.5
+    },
+    {
+      "name": "Steak Fries",
+      "price": 2.5
+    }
+  ],
+  "drinks": [
+    {
+      "name": "Tea",
+      "price": 1.95
+    },
+    {
+      "name": "Coffee",
+      "price": 2.25
+    },
+    {
+      "name": "Soda",
+      "price": 1.95
+    }
+  ]
+}
