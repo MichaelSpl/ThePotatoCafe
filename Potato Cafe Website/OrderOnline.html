@@ -4,9 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href = "PotatoCafeWebsite.css" rel = "stylesheet">
     <title>The Potato Cafe</title>
 </head>
 <body>
-   <p>Order Online goes here.</p> 
+    <a href = "Index.html"><img class = "logoTopImage" src = "WebsiteImages/The Potato Cafe Logo Improved.png" alt = ""></a>
+
+    <div class="buttonContainer">
+        <button type ="button" onclick = "window.location.href = 'OrderOnline.html'" class = "colored">Order Online</button>
+    </div>
+
+    <table>
+        <tr>
+            <th>Meals</th>
+        </tr>
+        <tr>
+            <td>
+                <div class = "container">
+                    <img src = "WebsiteImages/Pie Temp.PNG">
+                    <h2 class = "title">Shepherd's Pie</h2>
+                    <div class = "price_stuff">
+                        <h2>price/calories</h2>
+                        <button class = "order_add">Add To Order</button>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class = "container">
+                    <img src = "WebsiteImages/Latkes Temp.PNG">
+                    <h2 class = "title">Latkes</h2>
+                    <div class = "price_stuff">
+                        <h2>price/calories</h2>
+                        <button class = "order_add">Add To Order</button>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+    <div class = "pageHeader"></div>
 </body>
 </html>

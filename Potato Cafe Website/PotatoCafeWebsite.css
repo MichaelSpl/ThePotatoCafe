@@ -1,52 +1,82 @@
 html {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 body {
-    background: #F6ECBB;
-    margin: 0;
-    padding: 0;
+  background: #f6ecbb;
+  margin: 0;
+  padding: 0;
 }
 
-body,button {
-    font-family: "Dancing Script";
+body,
+button {
+  font-family: "Dancing Script";
 }
 
 button {
-    font-size: 20px;
-    border: none;
+  font-size: 20px;
+  border: none;
 }
 
 button.transparent {
-    background-color: transparent;
-    color: #F6ECBB;
+  background-color: transparent;
+  color: #f6ecbb;
 }
 
 button.colored {
-    background-color: #F6ECBB;
-    border-color: #F6ECBB;
-    color: #633720;
-    border-radius: 5px;
+  background-color: #f6ecbb;
+  border-color: #f6ecbb;
+  color: #633720;
+  border-radius: 5px;
 }
 
 .buttonContainer {
-    position: fixed;
-    display: flex;
-    z-index: 2;
-    right: 0px;
-    gap: 30px;
-    top: 25px;
-    right: 30px;
+  position: fixed;
+  display: flex;
+  z-index: 2;
+  right: 0px;
+  gap: 30px;
+  top: 25px;
+  right: 30px;
 }
 
 .pageHeader {
-    position: fixed;
-    background-color: #633720;
-    width: 100%;
-    height: 75px;
-    z-index: 1;
+  position: fixed;
+  background-color: #633720;
+  width: 100%;
+  height: 75px;
+  z-index: 1;
 }
 
+table {
+  position: absolute;
+  top: 100px;
+}
+
+button.order_add {
+  border-radius: 15px;
+}
+
+.container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+  background-color: #633720;
+  border-radius: 25px;
+}
+
+.container img {
+  border-radius: 25px;
+}
+
+.container h2.title {
+  margin-left: 20px;
+}
+
+.price_stuff {
+  margin-left: 25px;
+}
 /* @media screen and (max-width: 600px){
     .buttonContainer {
         flex-direction: column;
@@ -61,100 +91,102 @@ button.colored {
     }
 } */
 
-@media screen and (max-width: 630px){
-    html {
-        overflow-x: visible;
-    }
+@media screen and (max-width: 630px) {
+  html {
+    overflow-x: visible;
+  }
 }
 
 .orderOnlineButton {
-    position: fixed;
-    width: 120px;
-    height: 40px;
-    z-index: 2;
-    right: 8px;
-    top: 20px;
-    border-radius: 25px;
-    background: #F6ECBB;
+  position: fixed;
+  width: 120px;
+  height: 40px;
+  z-index: 2;
+  right: 8px;
+  top: 20px;
+  border-radius: 25px;
+  background: #f6ecbb;
 }
 
 .logoTopImage {
-    position: fixed;
-    width: 250px;
-    height: 150px;
-    z-index: 2;
-    margin-top: -40px;
-    left: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+  position: fixed;
+  width: 250px;
+  height: 150px;
+  z-index: 2;
+  margin-top: -40px;
+  left: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .logoHome {
-    position: relative;
-    background-image: url(WebsiteImages/PotatoBackgroundEdited.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+  position: relative;
+  background-image: url(WebsiteImages/PotatoBackgroundEdited.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 img.logoOne {
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
-    left: 0px;
-    top: 0px;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  left: 0px;
+  top: 0px;
 }
 
 .introductionHeader {
-    position: relative;
-    text-align: center;
-    font-style: normal;
-    font-weight: 400px;
-    font-size: 30px;
-    line-height: 70px;
-    margin-top: 77px;
+  position: relative;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 30px;
+  line-height: 70px;
+  margin-top: 77px;
 }
 
 .introductionParagraph {
-    position: relative;
-    text-align: left;
-    margin: 77px auto;
-    font-size: 20px;
-    width: 75%;
+  position: relative;
+  text-align: left;
+  margin: 77px auto;
+  font-size: 20px;
+  width: 75%;
 }
 
 .menuTitle {
-    position: relative;
-    text-align: center;
-    margin-top: 0;
-    top: 150px;
-    font-size: 60px;
+  position: relative;
+  text-align: center;
+  margin-top: 0;
+  top: 150px;
+  font-size: 60px;
 }
 
-.mealTitle, .drinkTitle {
-    position: relative;
-    text-align: center;
-    margin-top: 0;
+.mealTitle,
+.drinkTitle {
+  position: relative;
+  text-align: center;
+  margin-top: 0;
 }
 
 .mealTitle {
-    top: 180px;
+  top: 180px;
 }
 
-.items, .drinks {
-    position: relative;
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(3, 200px);
+.items,
+.drinks {
+  position: relative;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 200px);
 }
 
 .items {
-    top: 190px;
+  top: 190px;
 }
 
 .drinkTitle {
-    top: 260px;
+  top: 260px;
 }
 
 .drinks {
-    top: 270px;
+  top: 270px;
 }
