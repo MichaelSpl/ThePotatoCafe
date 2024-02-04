@@ -26,7 +26,7 @@ button.transparent {
 button.colored {
   background-color: #f6ecbb;
   border-color: #f6ecbb;
-  color: #633720;
+  /*color: #633720;*/
   border-radius: 5px;
 }
 
@@ -48,13 +48,15 @@ button.colored {
   z-index: 1;
 }
 
-table {
+.menu {
   position: absolute;
-  top: 100px;
+  top: 300px;
 }
 
 button.order_add {
+  width: 100px;
   border-radius: 15px;
+  background-color: #f6ecbb;
 }
 
 .container {
@@ -62,8 +64,8 @@ button.order_add {
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 5px;
-  background-color: #633720;
-  border-radius: 25px;
+  background-color: #ffe355;
+  border-radius: 30px;
 }
 
 .container img {
